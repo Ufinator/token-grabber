@@ -8,12 +8,13 @@ This is a Script, that is trying to find the User Token on the Machine and will 
 It's working on:
 * Windows
 * Discord normal (not canary, ptb or developer (will be added soon))
-_Note: The script is searching the token in the enviroment 'appdata'. If the discord main folder is not in this enviroment, the script will not work._
+* _Note: The script is searching the token in the enviroment 'appdata'. If the discord main folder is not in this enviroment, the script will not work._
 
 ## Images
 
 ![picture alt](https://i.ufi.wtf/save/bdb8110f50b724b009c9fac0cad6941d.png)
 ![picture alt](https://i.ufi.wtf/save/e9f03c868ba5d3e4fb0b65e19822867c.png)
+_Note: This Error is a fake error._
 
 
 ## How does it work?
